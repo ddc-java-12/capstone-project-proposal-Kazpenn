@@ -29,6 +29,8 @@ the end of teh dungeon you move onto the next level.
   * An indicator of what level you're on
   
   * A button that will show you teh solution if you get stuck on a level
+  
+  * A Dpad so that the player can move around the maze
 
 * **Persistent data**
 
@@ -37,19 +39,14 @@ the end of teh dungeon you move onto the next level.
   * Where the user is in a stage if the user quit midway through a run
   
   * the solutions to the stage in case the user wants to learn the stage while not connected to wifi
+  
+  * How many tries the level took, and if you used the hints/solutions
     
 * **Device/external services**
 
-  * N/A
-
-  If the client component will need to access special services of the device (e.g. sensors,
-  contacts, messaging), list them here. Also, if the client component will need to access 
-  already-existing external services (e.g. real-time weather data, Open Trivia Database), those 
-  should also be listed here; any such references to external services should include links to the
-  main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not
-just separate lines or paragraphs of text.
+  * Google sign in
+  
+  * Leaderboard rankings
     
 ## Server component
 
@@ -58,6 +55,8 @@ just separate lines or paragraphs of text.
   * The stage the user is currently on 
   
   * A leaderboard so you can see what level your friends have gotten to 
+  
+  * The amount of tries a level took other people to complete
 =
 * **Persistent data**
 
@@ -67,7 +66,7 @@ just separate lines or paragraphs of text.
     
 * **External services**
 
-  * I'm not sure what this app would need in regards to external services
+  * Google sign in
     
 ## Stretch goals/possible enhancements 
 
